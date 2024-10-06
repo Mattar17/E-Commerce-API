@@ -1,0 +1,15 @@
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.deps.json
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.dll
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.pdb
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\bin\Debug\net6.0\Talabat.Core.dll
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\bin\Debug\net6.0\Talabat.Core.pdb
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.AssemblyReference.cache
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.AssemblyInfoInputs.cache
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.AssemblyInfo.cs
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.CoreCompileInputs.cache
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat..61C101DD.Up2Date
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.dll
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\refint\Talabat.Repository.dll
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.pdb
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Repository\obj\Debug\net6.0\ref\Talabat.Repository.dll

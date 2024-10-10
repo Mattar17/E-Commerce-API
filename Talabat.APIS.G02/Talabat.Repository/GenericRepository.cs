@@ -48,5 +48,10 @@ namespace Talabat.Repository
         {
             return SpecificationEvaluator<T>.GetQuery(_dbContext.Set<T>(), specs);
         }
+
+        public async Task Add(T item)
+        {
+             await _dbContext.Set<T>().AddAsync(item);
+        }
     }
 }

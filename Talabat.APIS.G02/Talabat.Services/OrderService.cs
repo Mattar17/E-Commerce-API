@@ -7,6 +7,7 @@ using Talabat.Core.Entities;
 using Talabat.Core.Order_Aggregate;
 using Talabat.Core.Repository;
 using Talabat.Core.Services;
+using Talabat.Core.Specifications.OrderSpecification;
 using Address = Talabat.Core.Order_Aggregate.Address;
 
 namespace Talabat.Services
@@ -47,14 +48,24 @@ namespace Talabat.Services
             return result>0? Order : null;
         }
 
-        public Task<Orders> GetOrderByIdAsync(string buyerEmail , int OrderId)
+        public async Task<IReadOnlyList<DeliveryMethod>> GetDeliveryMethodsAsync()
         {
-            throw new NotImplementedException();
+            var DeliveryMethods = await _unitOfWork.Repository<DeliveryMethod>().GetAllAsync();
+            return DeliveryMethods;
+        }
+
+        public async Task<Orders> GetOrderByIdAsync(string buyerEmail , int OrderId)
+        {
+            var specs = new OrderSpecs(buyerEmail , OrderId);
+            var Order = await _unitOfWork.Repository<Orders>().GetByIdWithSpecs(specs);
+            return Order;
         }
 
         public Task<IReadOnlyList<Orders>> GetOrdersForUserAsync(string buyerEmail)
         {
-            throw new NotImplementedException();
+            var specs = new OrderSpecs(buyerEmail);
+            var Orders = _unitOfWork.Repository<Orders>().GetAllWithSpecs(specs);
+            return Orders;
         }
     }
 }

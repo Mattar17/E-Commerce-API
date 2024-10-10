@@ -84,3 +84,4 @@ D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.APIS.G02\bin\Debug\net6
 D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.APIS.G02\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.APIS.G02\bin\Debug\net6.0\Talabat.Services.dll
 D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.APIS.G02\bin\Debug\net6.0\Talabat.Services.pdb
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.APIS.G02\obj\Debug\net6.0\Talabat.APIS.G02.sourcelink.json

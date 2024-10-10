@@ -13,3 +13,4 @@ D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Services\obj\Debug\net6
 D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Services\bin\Debug\net6.0\Talabat.Core.dll
 D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Services\bin\Debug\net6.0\Talabat.Core.pdb
 D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Services\obj\Debug\net6.0\Talabat..D0FE60AD.Up2Date
+D:\Route Course\Assignments\API\Talabat.APIS.G02\Talabat.Services\obj\Debug\net6.0\Talabat.Services.sourcelink.json

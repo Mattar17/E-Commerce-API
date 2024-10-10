@@ -10,12 +10,11 @@ namespace Talabat.Core.Order_Aggregate
     public class Orders : BaseEntity
     {
 
-        public Orders(string buyerEmail,ICollection<OrderItem> items,Address shippingAddress,OrderStatus status,DeliveryMethod deliveryMethod,int subTotal) 
+        public Orders(string buyerEmail,ICollection<OrderItem> items,Address shippingAddress,DeliveryMethod deliveryMethod,int subTotal) 
         { 
             BuyerEmail = buyerEmail;
             Items = items;
             ShippingAddress = shippingAddress;
-            Status = status;
             DeliveryMethod = deliveryMethod;
             SubTotal = subTotal;
         }

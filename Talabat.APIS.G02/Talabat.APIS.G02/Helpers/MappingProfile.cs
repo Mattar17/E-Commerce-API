@@ -23,7 +23,7 @@ namespace Talabat.APIS.G02.Helpers
                 .ForMember(delivery => delivery.DeliveryMethodCost , order => order.MapFrom(order => order.DeliveryMethod.Cost));
 
 
-
+            CreateMap<CustomerBasket , CustomerBasketDTO>().ReverseMap();
         }
 
     }

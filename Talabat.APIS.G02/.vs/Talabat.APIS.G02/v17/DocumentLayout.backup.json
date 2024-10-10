@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F14DFBD2-B801-4ADC-A3E0-4E5E6A1FED49}|Talabat.Repository\\Talabat.Repository.csproj|d:\\route course\\assignments\\api\\talabat.apis.g02\\talabat.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14DFBD2-B801-4ADC-A3E0-4E5E6A1FED49}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|d:\\route course\\assignments\\api\\talabat.apis.g02\\talabat.apis.g02\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|solutionrelative:talabat.apis.g02\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|d:\\route course\\assignments\\api\\talabat.apis.g02\\talabat.apis.g02\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|solutionrelative:talabat.apis.g02\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E80CD85B-0E07-4C92-BFD8-4F3C8727056C}|Talabat.Core\\Talabat.Core.csproj|d:\\route course\\assignments\\api\\talabat.apis.g02\\talabat.core\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80CD85B-0E07-4C92-BFD8-4F3C8727056C}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|d:\\route course\\assignments\\api\\talabat.apis.g02\\talabat.apis.g02\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|solutionrelative:talabat.apis.g02\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|d:\\route course\\assignments\\api\\talabat.apis.g02\\talabat.apis.g02\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FFB9A0-9E49-4D01-8B8C-FDC7D72F4A69}|Talabat.APIS.G02\\Talabat.APIS.G02.csproj|solutionrelative:talabat.apis.g02\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
-              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
-              "RelativeToolTip": "Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T23:39:37.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Talabat.APIS.G02\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Talabat.APIS.G02\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwCMAAAAJAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Talabat.Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.Repository\\GenericRepository.cs*",
+              "RelativeToolTip": "Talabat.Repository\\GenericRepository.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA2wCQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T23:31:01.288Z",
+              "WhenOpened": "2024-10-10T21:34:44.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\DTOS\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Talabat.APIS.G02\\DTOS\\OrderDto.cs",
-              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\DTOS\\OrderDto.cs",
-              "RelativeToolTip": "Talabat.APIS.G02\\DTOS\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.Core\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Repository\\IGenericRepository.cs",
+              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.Core\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "Talabat.Core\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T23:27:50.159Z",
+              "WhenOpened": "2024-10-10T21:32:44.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
+              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
+              "RelativeToolTip": "Talabat.APIS.G02\\Helpers\\MappingProfile.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T21:20:17.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Talabat.APIS.G02\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Route Course\\Assignments\\API\\Talabat.APIS.G02\\Talabat.APIS.G02\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Talabat.APIS.G02\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAABCwE0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T21:19:01.512Z",
               "EditorCaption": ""
             }
           ]

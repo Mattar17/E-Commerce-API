@@ -15,17 +15,13 @@ namespace Talabat.APIS.G02.Controllers
 
     public class ProductController : APIBaseController
     {
-        private readonly IGenericRepository<Product> _productRepo;
         private readonly IMapper _mapper;
-        private readonly IGenericRepository<ProductBrand> _brandRep;
-        private readonly IGenericRepository<ProductType> _typeRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ProductController(IGenericRepository<Product> ProductRepo, IMapper mapper, IGenericRepository<ProductBrand> BrandRep, IGenericRepository<ProductType> TypeRepo)
+        public ProductController(IMapper mapper, IUnitOfWork unitOfWork)
         {
-            _productRepo = ProductRepo;
             _mapper = mapper;
-            _brandRep = BrandRep;
-            _typeRepo = TypeRepo;
+            _unitOfWork = unitOfWork;
         }
 
         #region GetAllProducts
@@ -34,7 +30,7 @@ namespace Talabat.APIS.G02.Controllers
         public async Task<ActionResult<IEnumerable<ProductToReturnDto>>> GetAllProducts([FromQuery]ProductSpecsParams Params)
         {
             var Specs = new ProductWithBrandAndTypeSpecs(Params);
-            var Products = await _productRepo.GetAllWithSpecs(Specs);
+            var Products = await _unitOfWork.Repository<Product>().GetAllWithSpecs(Specs);
             var MappedProducts = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductToReturnDto>>(Products);
             return Ok(MappedProducts);
         }
@@ -46,7 +42,7 @@ namespace Talabat.APIS.G02.Controllers
         public async Task<ActionResult<ProductToReturnDto>> GetProductById(int id)
         {
             var Specs = new ProductWithBrandAndTypeSpecs(id);
-            var Product = await _productRepo.GetByIdWithSpecs(Specs);
+            var Product = await _unitOfWork.Repository<Product>().GetByIdWithSpecs(Specs);
             if (Product == null)
             {
                 return NotFound(new ApiResponse(404));
@@ -62,7 +58,7 @@ namespace Talabat.APIS.G02.Controllers
 
         public async Task<ActionResult<IEnumerable<ProductBrand>>> GetBrands()
         {
-            var Brands = await _brandRep.GetAllAsync();
+            var Brands = await _unitOfWork.Repository<ProductBrand>().GetAllAsync();
             return Ok(Brands);
 
         }
@@ -76,7 +72,7 @@ namespace Talabat.APIS.G02.Controllers
 
         public async Task<ActionResult<IEnumerable<ProductType>>> GetTypes()
         {
-            var Types = await _typeRepo.GetAllAsync();
+            var Types = await _unitOfWork.Repository<ProductType>().GetAllAsync();
             return Ok(Types);
 
         }
